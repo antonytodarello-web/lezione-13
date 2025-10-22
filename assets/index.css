@@ -1,0 +1,49 @@
+/* Stile  smartphone  */
+h1,
+ul,
+#cat-cpntainer{
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+#cat-container img {
+max-width: 100%;
+/* in questo caso prenderebbe la dimensione nativa messa in html che è di 400/400 */
+/*vupl dire che mi posso allargare massimo 400px */
+}
+
+
+
+/* Stile  tablet  */
+@media screen  and (min-width: 768px ){
+ /* ora dentro gli stoli e si attivano solo se le condizioni nelle tonde vengono avverate   */
+ nav li {
+    /* alliniamo la lista al centro  */
+    display: inline-block;
+    margin-right: 0.5em;
+ }
+ #cat-contaire{
+    text-align: right;
+ }
+}
+/* Stile  per la stampa  */
+
+
+
+/* Stile  dekstop  */
+@media screen and (min-width: 991px){
+    h1{
+        color: crimson;
+        font-size: 5em;
+    }
+    #cat-container img {
+ text-align: center;
+}
+}
+ 
